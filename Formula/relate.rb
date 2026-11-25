@@ -5,23 +5,23 @@ class Relate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/relatedb/relate/releases/download/v1.2.0/relate-darwin-arm64"
-      sha256 "347511ff84392579a3554da3c3ab690d9e0bcf33a8697949d00b2bd05f123c90"
+      url "https://github.com/relatedb/relate/releases/download/v1.3.0/relate-darwin-arm64"
+      sha256 "b1d2d2f59fca696b0c2df35364c8a198a317b6fa733f0b8ff21b8fdcb7e30bc6"
     end
     on_intel do
-      url "https://github.com/relatedb/relate/releases/download/v1.2.0/relate-darwin-amd64"
-      sha256 "0cb4f8704db83b761ed4e2c44706769d1ea44fff338d0d42a44909508b580b41"
+      url "https://github.com/relatedb/relate/releases/download/v1.3.0/relate-darwin-amd64"
+      sha256 "9595ab272616dc2e4143c7fcbbb95da0e482e043168033aafdaf91efa9d16249"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/relatedb/relate/releases/download/v1.2.0/relate-linux-arm64"
-      sha256 "e73f39b2f0442b76f8a5e01194ff6ed69a8dd2637427c4f97ae9d4ae8f288859"
+      url "https://github.com/relatedb/relate/releases/download/v1.3.0/relate-linux-arm64"
+      sha256 "a8b5d3727787d42daad37fea7e4e1f176d15a8a6c3cf082cb2eb57920bbcd86e"
     end
     on_intel do
-      url "https://github.com/relatedb/relate/releases/download/v1.2.0/relate-linux-amd64"
-      sha256 "03e05e7cf25eec498e328837a3b6636c7a4807410b989e4b72948f1ebc8a99a5"
+      url "https://github.com/relatedb/relate/releases/download/v1.3.0/relate-linux-amd64"
+      sha256 "a278193a61c03e514d61469b1dc12ad440dc96a8ded4f70e05012514e714b281"
     end
   end
 
